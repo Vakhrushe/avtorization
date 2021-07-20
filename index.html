@@ -12,7 +12,7 @@
       <form action="#" method="GET">
         <input id="username" name="username" type="email" required placeholder="Введи Email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
         <br>
-        <input id="pw" name="pw" type="password" required placeholder="Введи пароль" pattern="^[a-zA-Z0-9]+$">
+        <input id="pw" name="pw" type="password" minlength="6" required placeholder="Введи пароль" pattern="^[a-zA-Z0-9]+$">
         <br>
         <input type="submit" value="Вход">
       </form>
